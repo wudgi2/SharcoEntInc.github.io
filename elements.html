@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Project Images</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel=" stylesheet" href="assets/css/slider.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="images/TlW40eyk-992558901.jpeg"></div>
+				<div class="swiper-slide"><img src="images/Resized_Resized_20220628_123420(1).jpeg"></div>
+				<div class="swiper-slide"><img src="images/hin8QICx-156418990.jpeg"></div>
+				<div class="swiper-slide"><img src="images/Pu8G11mo-156424363.jpeg"></div>
+				<div class="swiper-slide"><img src="images/Resized_20221123_102045.jpeg"></div>
+				<div class="swiper-slide"><img src="images/Resized_20220511_104427001.jpeg"></div>
+				<div class="swiper-slide"><img src="images/Resized_20200125_092521.jpeg"></div>
+				<div class="swiper-slide"><img src="images/30076004175142.jpeg"></div>
+				<div class="swiper-slide"><img src="images/Resized_20191206_102412.jpeg"></div>
+				<div class="swiper-slide"><img src="images/30076004031564.jpeg"></div>
+				<div class="swiper-slide"><img src="images/30076000427617.jpeg"></div>
+				<div class="swiper-slide"><img src="images/30076000713250.jpeg"></div>
+				<div class="swiper-slide"><img src="images/30076000266442.jpeg"></div>
+				<div class="swiper-slide"><img src="images/30075770444051.jpeg"></div>
+				<div class="swiper-slide"><img src="images/30075767573551.jpeg"></div>
+				<div class="swiper-slide"><img src="images/30075770246563.jpeg"></div>
+				<div class="swiper-slide"><img src="images/30076002571332.jpeg"></div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+	<script>
+		const swiper = new Swiper('.swiper', {
+			autoplay: {
+				delay: 3000,
+				disableOnInteraction: false,
+			},
+			loop: true,
+
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+		});
+	</script>
+</body>
+
+</html>

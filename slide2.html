@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Project Images</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel=" stylesheet" href="assets/css/slider.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/59unCh47-411733369.jpeg"></div>
+                <div class="swiper-slide"><img src="images/MBV7ZlHN-411737578.jpeg"></div>
+                <div class="swiper-slide"><img src="images/Resized_20211122_123033(1)001.jpeg"></div>
+                <div class="swiper-slide"><img src="images/Resized_20211119_122726(3).jpeg"></div>
+                <div class="swiper-slide"><img src="images/Resized_20211117_160910(2).jpeg"></div>
+                <div class="swiper-slide"><img src="images/Resized_20210722_113213(1).jpeg"></div>
+                <div class="swiper-slide"><img src="images/Resized_20210825_092633(1).jpeg"></div>
+                <div class="swiper-slide"><img src="images/Resized_20211222_110443.jpeg"></div>
+                <div class="swiper-slide"><img src="images/30076014246432.jpeg"></div>
+                <div class="swiper-slide"><img src="images/30076012565310.jpeg"></div>
+                <div class="swiper-slide"><img src="images/30076012474321.jpeg"></div>
+                <div class="swiper-slide"><img src="images/IMG_5573.jpg"></div>
+                <div class="swiper-slide"><img src="images/30076004272553.jpeg"></div>
+                <div class="swiper-slide"><img src="images/30075771705726.jpeg"></div>
+                <div class="swiper-slide"><img src="images/30076002420511.jpeg"></div>
+                <div class="swiper-slide"><img src="images/30076001303526.jpeg"></div>
+                <div class="swiper-slide"><img src="images/SxBACUFP-157254811.jpeg"></div>
+                <div class="swiper-slide"><img src="images/30075770564312.jpeg"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>
