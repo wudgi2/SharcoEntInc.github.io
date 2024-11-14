@@ -2630,6 +2630,7 @@ ul.actions {
 	list-style: none;
 	margin-left: -1em;
 	padding-left: 0;
+	justify-content: center;
 }
 
 ul.actions li {
@@ -3757,6 +3758,17 @@ body.is-preload #header.alt .logo {
 	border-bottom-left-radius: 0;
 }
 
+#main>.main iframe {
+	display: block;
+	/* Ensures it's treated as a block element */
+	margin: 0 auto;
+	/* Centers the map */
+	max-width: 100%;
+	/* Ensures it doesn't overflow on small screens */
+	height: auto;
+	/* Adjusts height proportionally */
+}
+
 @media screen and (max-width: 1280px) {
 
 	#main>.main {
@@ -3794,6 +3806,15 @@ body.is-preload #header.alt .logo {
 		width: calc(100% + 4em);
 	}
 
+}
+
+@media (max-width: 768px) {
+	.main iframe {
+		width: 90%;
+		/* Makes the map smaller on mobile */
+		height: auto;
+		/* Adjust height proportionally */
+	}
 }
 
 @media screen and (max-width: 480px) {
