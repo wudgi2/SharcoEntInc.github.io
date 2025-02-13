@@ -191,10 +191,10 @@ html {
 
 body {
 	background-color: #ffd000;
-	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ffd000 15%, #ffd000 85%);
+	/*background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ffd000 15%, #ffd000 85%);
 	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ffd000 15%, #ffd000 85%);
 	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ffd000 15%, #ffd000 85%);
-	background-image: url("images/overlay.png"), linear-gradient(45deg, #ffd000 15%, #ffd000 85%);
+	background-image: url("images/overlay.png"), linear-gradient(45deg, #ffd000 15%, #ffd000 85%);*/
 }
 
 body.is-preload *,
