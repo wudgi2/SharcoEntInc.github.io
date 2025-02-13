@@ -190,11 +190,11 @@ html {
 }
 
 body {
-	background-color: #ffd000;
-	/*background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ffd000 15%, #ffd000 85%);
-	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ffd000 15%, #ffd000 85%);
-	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ffd000 15%, #ffd000 85%);
-	background-image: url("images/overlay.png"), linear-gradient(45deg, #ffd000 15%, #ffd000 85%);*/
+	background-color: #ffae00;
+	/*background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ffae00 15%, #ffae00 85%);
+	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ffae00 15%, #ffae00 85%);
+	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ffae00 15%, #ffae00 85%);
+	background-image: url("images/overlay.png"), linear-gradient(45deg, #ffae00 15%, #ffae00 85%);*/
 }
 
 body.is-preload *,
@@ -213,7 +213,7 @@ body.is-preload *:after {
 /* Type */
 
 body {
-	background-color: #ffd000;
+	background-color: #ffae00;
 	color: rgba(255, 255, 255, 0.65);
 }
 
@@ -2293,7 +2293,7 @@ select {
 
 select option {
 	color: #ffffff;
-	background: #ffd000;
+	background: #ffae00;
 }
 
 input[type="checkbox"]+label,
@@ -2311,7 +2311,7 @@ input[type="checkbox"]:checked+label:before,
 input[type="radio"]:checked+label:before {
 	background-color: #ffffff;
 	border-color: #ffffff;
-	color: #ffd000;
+	color: #ffae00;
 }
 
 input[type="checkbox"]:focus+label:before,
@@ -2417,23 +2417,23 @@ input[type="radio"]:focus+label:before {
 }
 
 .icon.style1 {
-	color: #ffd000;
+	color: #ffae00;
 }
 
 .icon.style2 {
-	color: #ffd000;
+	color: #ffae00;
 }
 
 .icon.style3 {
-	color: #ffd000;
+	color: #ffae00;
 }
 
 .icon.style4 {
-	color: #ffd000;
+	color: #ffae00;
 }
 
 .icon.style5 {
-	color: #ffd000;
+	color: #ffae00;
 }
 
 @media screen and (max-width: 1680px) {
@@ -3018,23 +3018,23 @@ table.alt tbody tr td {
 }
 
 .statistics li.style1 {
-	background-color: #ffd000;
+	background-color: #ffae00;
 }
 
 .statistics li.style2 {
-	background-color: #ffd000;
+	background-color: #ffae00;
 }
 
 .statistics li.style3 {
-	background-color: #ffd000;
+	background-color: #ffae00;
 }
 
 .statistics li.style4 {
-	background-color: #ffd000;
+	background-color: #ffae00;
 }
 
 .statistics li.style5 {
-	background-color: #ffd000;
+	background-color: #ffae00;
 }
 
 .statistics li strong,
