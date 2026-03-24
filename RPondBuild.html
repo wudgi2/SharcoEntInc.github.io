@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Residential Project Images</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel=" stylesheet" href="assets/css/slider.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/30075770564312.jpeg"></div>
+                <div class="swiper-slide"><img src="images/30075771453676.jpeg"></div>
+                <div class="swiper-slide"><img src="images/30076001303526.jpeg"></div>
+                <div class="swiper-slide"><img src="images/Pond.jpg"></div>
+                <div class="swiper-slide"><img src="images/Pond2.jpg"></div>
+                <div class="swiper-slide"><img src="images/Pond3.jpg"></div>
+                <div class="swiper-slide"><img src="images/Pond4.jpg"></div>
+                <div class="swiper-slide"><img src="images/Pond5.jpg"></div>
+                <div class="swiper-slide"><img src="images/SxBACUFP-157254811.jpeg"></div>
+                <!--<div class="swiper-slide"><img src="images/.jpeg"></div>
+                <div class="swiper-slide"><img src="images/.jpeg"></div>
+                <div class="swiper-slide"><img src="images/.jpeg"></div>
+                <div class="swiper-slide"><img src="images/.jpg"></div>
+                <div class="swiper-slide"><img src="images/.jpg"></div>
+                <div class="swiper-slide"><img src="images/.jpg"></div>
+                <div class="swiper-slide"><img src="images/.jpg"></div>
+                <div class="swiper-slide"><img src="images/.jpg"></div>-->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>
