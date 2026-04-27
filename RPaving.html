@@ -18,10 +18,17 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="images/59unCh47-411733369.jpeg"></div>
                 <div class="swiper-slide"><img src="images/MBV7ZlHN-411737578.jpeg"></div>
-                <div class="swiper-slide"><img src="images/.jpeg">RDrive.jpeg</div>
-                <div class="swiper-slide"><img src="images/.jpeg">RDrive2.jpeg</div>
-                <div class="swiper-slide"><img src="images/.jpeg">RDrive3.jpeg</div>
-                <div class="swiper-slide"><img src="images/.jpeg">RDriveVideo.mp4</div>
+                <div class="swiper-slide"><img src="images/RDrive.jpeg"
+                        style="width: 100%; max-width: 1250px; max-height: 820px; object-fit: contain;"></div>
+                <div class="swiper-slide"><img src="images/RDrive2.jpeg"
+                        style="width: 100%; max-width: 1250px; max-height: 820px; object-fit: contain;"></div>
+                <div class="swiper-slide"><img src="images/RDrive3.jpeg"
+                        style="width: 100%; max-width: 1250px; max-height: 820px; object-fit: contain;"></div>
+                <div class="swiper-slide">
+                    <video controls muted playsinline preload="metadata">
+                        <source src="images/RDriveVideo.mp4" type="video/mp4">
+                    </video>
+                </div>
                 <!--<div class="swiper-slide"><img src="images/.jpeg"></div>
                 <div class="swiper-slide"><img src="images/.jpeg"></div>
                 <div class="swiper-slide"><img src="images/.jpg"></div>
@@ -62,6 +69,14 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+        });
+
+        const slideVideos = document.querySelectorAll('.swiper-slide video');
+
+        slideVideos.forEach((video) => {
+            video.addEventListener('play', () => swiper.autoplay.stop());
+            video.addEventListener('pause', () => swiper.autoplay.start());
+            video.addEventListener('ended', () => swiper.autoplay.start());
         });
     </script>
 </body>
