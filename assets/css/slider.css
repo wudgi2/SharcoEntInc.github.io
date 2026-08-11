@@ -50,3 +50,27 @@ body {
 .swiper .swiper-pagination-bullet-active {
     background: #fff;
 }
+
+.back-to-home {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+    display: grid;
+    width: 2.75rem;
+    height: 2.75rem;
+    place-items: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 50%;
+    font-family: Arial, sans-serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.back-to-home:hover,
+.back-to-home:focus {
+    background: rgba(0, 0, 0, 0.75);
+    transform: scale(1.08);
+}
